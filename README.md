@@ -123,7 +123,7 @@ use a pre-installed version, copied from other operation system;
 
 - **Modern Setup**:
   - **x86**: Branding -> Modern Setup -> Base-> API-SET -> D3d -> Driver Update -> App Compat-> Additional Dlls;
-  - **x64**: Base -> Branding -> Modern Setup -> Base-> API-SET -> D3d -> Driver Update -> App Compat-> Additional Dlls;
+  - **x64**: Base -> Branding -> Modern Setup-> API-SET -> D3d -> Driver Update -> App Compat-> Additional Dlls;
      
 - **Modern Setup Only** (Recommended install Driver Update too):
   - **x86**: Branding -> Modern Setup;
