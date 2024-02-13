@@ -42,7 +42,7 @@
   - **AppCompat first（首先安装AppCompat）**：此包可以单独安装。
 
 **主要功能**：  
-- 默认情况下，增加对128 GB（x86）和2 TB（x64）内存的支持；
+- 默认情况下，增加对128 GB(x86)和2 TB(x64)内存的支持；
 - 允许运行为现代Windows OS设计的新程序；
 - 支持具有新驱动程序控制器的新硬件；
 - 允许在任何计算机上安装Windows，并且支持通用化硬件；
@@ -104,16 +104,15 @@
 - Kate 23.08.1 (目前仅适用于Windows XP x64)
 
 **已知限制：**  
-- 多个应用程序的打开/保存对话框因为使用了Vista实现的IFileDialog而无法完全工作。正在进行中的工作；
-- 运行Firefox 56+可能会遇到页面加载问题。要解决此问题，从版本55到72，您必须创建一个名为MOZ_FORCE_DISABLE_E10S的环境变量。它将是环境变量的键，值为1。对于73版本及更高版本，值将是版本号，例如73.0.0（请检查版本号）；
-- 对话框或窗口中的某些地方仅保留英文。  国际化进程正在进行中。  安装的mui包的一些问题；
-- 新应用程序安装程序可能不起作用，例如Chrome、Maxthon、Discord、TeamViewer等崩溃并且应用程序未安装。需要使用从其他操作系统复制的预安装版本；
-- 无法将这些包集成到Windows Iso中，因为使用了一个称为“SFXCAB Substitute”的工具，而不是标准的Microsoft版本；
-- 标准的.NET Framework安装程序从4.6开始目前不受支持。您需要像这里做的一样重新打包版本：https://github.com/abbodi1406/dotNetFx4xW7  
-  也可以在此处找到其他版本：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251  
-  也有其他版本，请在论坛主题中搜索；
-- Palemoon版本27-31无法下载任何内容。下载不起作用；
-- Opera 39-46可能需要遵循以下参数才能启动：--disable-gpu（以防止黑屏）和--single-process（以防止永远加载首页）；
+- 对话框或窗口中的某些地方仅保留英文。  国际化进程正在进行中。  已安装的mui包的一些问题；
+ - 新的应用程序安装程序可能无法工作，例如Chrome、Maxthon、Discord、Team Viewer等崩溃且应用程序未安装。  需要 
+ 使用从其他操作系统复制的预安装版本；
+ - Firefox 55-116 运行有一些限制；
+ - 从 OCA 3.0.5 开始，x86 下的应用程序现在可以在 Windows XP/Server 2003 x64 上运行 ~~Firefox 因为版本 54（32 位）无法在 Windows XP x64 上运行。  Chrome 61+ 也不行；~~
+ - 该软件包无法与 nlite 集成到 Windows Iso，因为使用名为“SFXCAB Substitute”的工具，而不是标准 Microsoft 版本；
+ - 目前不支持从 4.6 开始的标准 .Net Framework 安装程序。  您需要一个重新打包的版本，如下所示：https://github.com/abbodi1406/dotNetFx4xW7。  可用如下：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251。  其他版本也可用，搜索论坛主题；
+ - 新版本的palemon可能面临并排配置错误问题。
+ - Opera 39 - 46 可能需要以下参数才能启动：--disable-gpu（以防止黑屏）和 --single-process（以防止永远加载第一页）；
 
 **报告问题**
 
