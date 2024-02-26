@@ -84,6 +84,7 @@
 - Geekbench 4.2；
 - Performance Test；
 - Adobe Reader DC（2018年版）；
+- 福昕阅读器 (2023);
 - Windows 7游戏；
 - Windows 7画图(小畫家)；
 - Windows 7写字板；
