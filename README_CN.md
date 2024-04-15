@@ -70,7 +70,7 @@
 - Microsoft Edge版本最高到122；
 - Brave版本1.62.153 (Chromium 121)；
 - Yandex最新版本；
-- Thorium浏览器最高到109；
+- Thorium浏览器版本109以上；
 - Supermium版本122以上；
 - Seamonkey版本2.53.10以上；
 - Thunderbird版本121以上；
@@ -106,13 +106,12 @@
 
 **已知限制：**  
 - 对话框或窗口中的某些地方仅保留英文。  国际化进程正在进行中。  已安装的mui包的一些问题；
- - 新的应用程序安装程序可能无法工作，例如Chrome、Maxthon、Discord、Team Viewer等崩溃且应用程序未安装。  需要 
- 使用从其他操作系统复制的预安装版本；
- - Firefox 55-116 运行有一些限制；
- - 从 OCA 3.0.5 开始，x86 下的应用程序现在可以在 Windows XP/Server 2003 x64 上运行 ~~Firefox 因为版本 54（32 位）无法在 Windows XP x64 上运行。  Chrome 61+ 也不行；~~
- - 该软件包无法与 nlite 集成到 Windows Iso，因为使用名为“SFXCAB Substitute”的工具，而不是标准 Microsoft 版本；
- - 目前不支持从 4.6 开始的标准 .Net Framework 安装程序。  您需要一个重新打包的版本，如下所示：https://github.com/abbodi1406/dotNetFx4xW7。  可用如下：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251。  其他版本也可用，搜索论坛主题；
- - 新版本的palemon可能面临并排配置错误问题。
+ - 新的应用程序安装程序可能无法工作，例如Chrome、Maxthon、Discord、Team Viewer等崩溃且应用程序未安装。  需要使用从其他操作系统复制的预安装版本；
+ - Firefox 55-116运行有一些限制；
+ - 从 OCA 3.0.5开始，x86 下的应用程序现在可以在 Windows XP/Server 2003 x64 上运行 ~~Firefox 因为版本 54（32 位）无法在Windows XP x64上运行。  Chrome 61+也不行；~~
+ - 该软件包无法与 nlite 集成到 Windows Iso，因为使用名为“SFXCAB Substitute”的工具，而不是标准Microsoft版本；
+ - 目前不支持从4.6开始的标准.Net Framework安装程序。  您需要一个重新打包的版本，如下所示：https://github.com/abbodi1406/dotNetFx4xW7。  可用如下：https://www.wincert.net/forum/topic/13805-microsoft-net-framework-472-full-x86x64-incl-language-packs-by-ricktendo/#comment-123251。  其他版本也可用，搜索论坛主题；
+ - 新版本的palemoon可能面临配置错误问题。
  - Opera 39 - 46 可能需要以下参数才能启动：--disable-gpu（以防止黑屏）和 --single-process（以防止永远加载第一页）；
 
 **报告问题**
